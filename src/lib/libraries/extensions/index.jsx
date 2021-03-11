@@ -329,7 +329,7 @@ export default [
         insetIconURL: minecraftButtonImage,
         featured: true,
         disabled: false,
-        internetConnectionRequired: true,
+        internetConnectionRequired: false,
         bluetoothRequired: false,
         helpLink: 'https://scratch.mit.edu/wedo'
 
