@@ -1,6 +1,19 @@
 # scratch-gui
 #### Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
 
+## Deploy for specific Minecraft version
+```sh
+cd scratch-vm && yarn link scratch-vm && yarn install
+cd ../
+cd scratch-gui && yarn link scratch-vm && yarn install
+npm run build
+npm run deploy -- -e (branch for minecraft version)
+// for Minecraft 1.12.2
+npm run deploy -- -e 1-12-2
+// for Minecraft 1.16.5
+npm run deploy -- -e 1-16-5
+```
+
 [![Build Status](https://travis-ci.com/LLK/scratch-gui.svg?token=Yfq2ryN1BwaxDME69Lnc&branch=master)](https://travis-ci.com/LLK/scratch-gui)
 [![Greenkeeper badge](https://badges.greenkeeper.io/LLK/scratch-gui.svg)](https://greenkeeper.io/)
 
