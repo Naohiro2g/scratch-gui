@@ -332,6 +332,18 @@ export default [
         internetConnectionRequired: false,
         bluetoothRequired: false,
         helpLink: 'https://scratch.mit.edu/wedo'
-
     }
+    // ,
+    // {
+    //     name: 'Minecraft Agent',
+    //     extensionId: 'minecraftAgent',
+    //     collaborator: 'tackex@github',
+    //     iconURL: minecraftImage,
+    //     insetIconURL: minecraftButtonImage,
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: false,
+    //     bluetoothRequired: false,
+    //     helpLink: 'https://scratch.mit.edu/wedo'
+    // }
 ];
